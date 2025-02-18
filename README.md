@@ -70,5 +70,21 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 # Déroulé : 
 création du premier commit et link remote
 
+creation des branches dev et teask_feature.
+
 Création du Model Task et récupération du Model User.
+
+Création de la migration
+php artisan make:migration create_tasks_table --create=tasks
+
+Mise en relation de user et task selon relation OneToMany : un user pourra avoirp lusieurs tâches.
+
+Renseigner les colonnes de Task dans le fichier de migraiton
+
+php artisan migrate
+
+
+
+
+
 
