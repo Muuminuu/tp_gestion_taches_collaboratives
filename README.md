@@ -83,7 +83,11 @@ Renseigner les colonnes de Task dans le fichier de migraiton
 
 php artisan migrate
 
+php artisan make:controller TaskController
+php artisan make:controller UserController
+php artisan make:controller AuthController
 
+git commit -m "add(Controller): create Auth, Task & User Controller"
 
 
 
